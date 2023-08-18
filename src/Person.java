@@ -4,9 +4,9 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Человек{" +
-                "Имя='" + name + '\'' +
-                ", Фамилия='" + surname + '\'' +
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
                 '}';
     }
 }
